@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // Change this to your actual GitHub repo name
-const repoName = "CreativeHYD1";  
+const repoName = "CreativeHYD";  
 
 const plugins = [
   react(),
@@ -35,8 +35,9 @@ export default defineConfig({
   },
   root: path.resolve(__dirname, "client"),
   build: {
-    outDir: path.resolve(__dirname, "dist/public"), // Ensure the output directory matches
+    outDir: path.resolve(__dirname, "dist"), // 👈 Fix this line
     emptyOutDir: true
-  },
+  }
+  ,  
   
 });
