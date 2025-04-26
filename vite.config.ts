@@ -24,7 +24,7 @@ if (process.env.NODE_ENV !== "production" && process.env.REPL_ID !== undefined) 
 }
 
 export default defineConfig({
-  base: `/CreativeHYD1/`, // 👈 Make sure this matches your GitHub repository name!
+  base: `/CreativeHYD/`, // 👈 Make sure this matches your GitHub repository name!
   plugins,
   resolve: {
     alias: {
